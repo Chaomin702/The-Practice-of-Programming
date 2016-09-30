@@ -40,7 +40,7 @@ State* lookup(char *prefix[NPREF], int create){
 
 void build(char *prefix[NPREF], FILE *f){
   char buf[100], fmt[10];
-  sprintf(fmt, "%%%ds", sizeof(buf-1));
+  sprintf(fmt, "%%%ds", sizeof(buf)-1);
   while(fscanf(f,fmt,buf)!=EOF)
     add(prefix,strdup(buf));
 }

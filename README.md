@@ -1,4 +1,5 @@
 # The Practice of Programming
 
-- [ ] ## The Markov Chain Algorithm
+- [ ] The Markov Chain Algorithm
+
 
